@@ -37,4 +37,10 @@ int _isalpha(int c);
 
 int print_sign(int n);
 
+/**
+ * _abs -blueprint to absolute number function
+ */
+ 
+int _abs(int n);
+
 #endif
