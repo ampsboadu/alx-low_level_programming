@@ -43,4 +43,10 @@ int print_sign(int n);
  
 int _abs(int n);
 
+/**
+ * print_last_digit -blueprint of last value function
+ */
+
+int print_last_digit(int n);
+
 #endif
