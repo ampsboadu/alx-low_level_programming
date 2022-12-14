@@ -49,4 +49,10 @@ int _abs(int n);
 
 int print_last_digit(int n);
 
+/**
+ * jack_bauer -blueprint to 24hr function
+ */
+
+void jack_bauer(void);
+
 #endif
