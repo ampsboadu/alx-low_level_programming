@@ -31,4 +31,10 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+/**
+ * print_sign -blueprint to print sign of numbers
+ */
+
+int print_sign(int n);
+
 #endif

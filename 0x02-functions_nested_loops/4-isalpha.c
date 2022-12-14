@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * _isalpha -function checks if input is character
+ * @c: input character
+ * Return: 1 if is alphabet and 0 for others
  */
 
 int _isalpha(int c)
@@ -22,7 +24,7 @@ int _isalpha(int c)
 	{
 		a = 'A';
 
-		while (a <= 'A')
+		while (a <= 'Z')
 		{
 			if (a == c)
 			{
