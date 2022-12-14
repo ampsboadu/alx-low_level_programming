@@ -62,4 +62,10 @@ void jack_bauer(void);
 
 void times_table(void);
 
+/**
+ * add -blueprint to add two number function
+ */
+
+int add(int a, int b);
+
 #endif
