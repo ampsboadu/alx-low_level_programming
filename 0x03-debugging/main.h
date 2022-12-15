@@ -14,7 +14,7 @@ void positive_or_negative(int i);
 int largest_number(int a, int b, int c)
 	
 /**
- * print_remaining_days - blueprint for print remaing days
+ * print_remaining_days -blueprint for print remaing days
  */
 
 void print_remaining_days(int month, int day, int year);
