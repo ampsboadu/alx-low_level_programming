@@ -25,4 +25,16 @@ int _isdigit(int c);
 
 int mul(int a, int b);
 
+/**
+ * print_numbers -blueprint for print numbers func
+ */
+
+void print_numbers(void);
+
+/**
+ * print_most_numbers -blueprint for print most num func
+ */
+
+void print_most_numbers(void);
+
 #endif

@@ -6,7 +6,7 @@
  * Return: result of the func
  */
 
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	int result;
 
