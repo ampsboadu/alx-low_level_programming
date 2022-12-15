@@ -5,6 +5,6 @@
  * _putchar -print character
  */
 
-int _putchar(int c);
+int _putchar(char c);
 
 #endif
