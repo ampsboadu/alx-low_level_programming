@@ -19,4 +19,10 @@ int _isupper(int c);
 
 int _isdigit(int c);
 
+/**
+ * mul -blueprint for multiply func
+ */
+
+int mul(int a, int b);
+
 #endif
