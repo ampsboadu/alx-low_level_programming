@@ -37,4 +37,34 @@ void print_numbers(void);
 
 void print_most_numbers(void);
 
+/**
+ * more_numbers -blueprint for print more numbers func
+ */
+
+void more_numbers(void);
+
+/**
+ * print_line -blueprint for line drawer func
+ */
+
+void print_line(int n);
+
+/**
+ * print_diagonal -blueprint for diagonal print func
+ */
+
+void print_diagonal(int n);
+
+/**
+ * print_square -blueprint for print square func
+ */
+
+void print_square(int size);
+
+/**
+ * print_triangle -blueprint for print triagle function
+ */
+
+void print_triangle(int size);
+
 #endif
