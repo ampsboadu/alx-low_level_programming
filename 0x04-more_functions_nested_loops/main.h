@@ -59,12 +59,12 @@ void print_diagonal(int n);
  * print_square -blueprint for print square func
  */
 
-void print_square(int size);
+void print_square(int);
 
 /**
  * print_triangle -blueprint for print triagle function
  */
 
-void print_triangle(int size);
+void print_triangle(int);
 
 #endif
