@@ -4,6 +4,7 @@
  * 'fizz' for mutiples of 3
  * 'buzz' for multiples of 5
  * 'fizzbuzz' for multiples of 3 & 5
+ * Return: 0
  */
 
 int main(void)
@@ -34,4 +35,6 @@ int main(void)
 		i++;
 	}
 	printf("\n");
+
+	return (0);
 }
