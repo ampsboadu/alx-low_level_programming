@@ -11,6 +11,8 @@ int _putchar(char c);
  * _isupper -blueprint for is upper func
  */
 
+void more_numbers(void);
+
 int _isupper(int c);
 
 /**
@@ -41,7 +43,7 @@ void print_most_numbers(void);
  * more_numbers -blueprint for print more numbers func
  */
 
-void more_numbers(void);
+/*void more_numbers(void);*/
 
 /**
  * print_line -blueprint for line drawer func
