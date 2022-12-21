@@ -67,4 +67,10 @@ void print_array(int *a, int n);
 
 char *_strcpy(char *dest, char *src);
 
+/**
+ * _atoi -converts string to num
+ */
+
+int _atoi(char *s);
+
 #endif
