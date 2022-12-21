@@ -4,6 +4,7 @@
  * print_array -prints items in array
  * @a: array
  * @n: number of items in a
+ * Return: destination
  */
 
 void print_array(int *a, int n)
