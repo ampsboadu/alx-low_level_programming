@@ -4,6 +4,7 @@
  * _strcpy -copy string
  * @dest: destination of copy
  * @src: source string
+ * Return: destination
  */
 
 char *_strcpy(char *dest, char *src)
