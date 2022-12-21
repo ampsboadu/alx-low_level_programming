@@ -18,17 +18,17 @@ int _atoi(char *s)
 	{
 		if ((s[i] >= '0') && (s[i] <= '9'))
 		{
-			if (vals == 0 && s[i - 1] == '-')
-				neg = 1;
-
 			vals = vals * 10 + (s[i] - '0');
 		}
+
+		if (s[i] == '-')
+			neg++;
 
 		if ((vals != 0) && !((s[i] >= '0') && (s[i] <= '9')))
 			break;
 	}
 
-	if (neg == 1)
+	if (neg == 1 && s[0] == '-')
 		vals = vals * -1;
 
 	return (vals);
