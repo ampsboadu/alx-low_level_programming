@@ -6,7 +6,7 @@
  * Return: format string
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i = 0;
 
@@ -14,11 +14,9 @@ char *cap_string(char *)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			if ((i != 0) && (s[i - 1] == ' ' || s[i - 1] == '.' || s[i - 1] == ';' || s[i - 1] == '!'))
-				s[i] = s[i] - 'a' + 'A';
-			if ((i != 0) && (s[i - 1] == '?' || s[i - 1] == '"' || s[i - 1] == '(' || s[i - 1] == ')'))
-				s[i] = s[i] - 'a' + 'A';
-			if ((i != 0) && (s[i - 1] == '{' || s[i - 1] == '}' || s[i - 1] == '\n'))
+			if ((i != 0) && (s[i - 1] == ' ' || s[i - 1] == '.' || s[i - 1] == ';'
+				|| s[i - 1] == '!' || s[i - 1] == '{' || s[i - 1] == '}'
+				|| s[i - 1] == '\n' || s[i - 1] == '\t'))
 				s[i] = s[i] - 'a' + 'A';
 			if (i == 0)
 				s[i] = s[i] - 'a' + 'A';
