@@ -2,6 +2,12 @@
 #define _MAIN_H
 
 /**
+ * _putchar -blueprnt to put char func
+ */
+
+int _putchar(char c);
+
+/**
  * _strcat -Blueprint for append function
  */
 
