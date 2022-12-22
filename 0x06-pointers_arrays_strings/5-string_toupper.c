@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * string_toupper -converts string to upper
@@ -14,7 +13,7 @@ char *string_toupper(char *s)
 	while (s[i] != '\0')
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
-			s[i] = toupper((unsigned char) s[i]);
+			s[i] = s[i] - 'a' + 'A';
 		i++;
 	}
 
