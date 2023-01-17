@@ -8,17 +8,12 @@
  * @owner: owner name
  */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
-
-/**
- * struct dog -prototype
- * dog_t - Typedef for struct dog
- */
+} dog;
 
 typedef struct dog dog_t;
 
