@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main -print name of program
@@ -7,6 +7,15 @@
 
 int main(void)
 {
-	printf("%s\n", __FILE__);
+	int i = 0;
+	char *s = __FILE__;
+
+	while (s[i] != '\0')
+	{
+		_putchar(s[i]);
+		i++;
+	}
+	_putchar('\n');
+	
 	return (0);
 }
