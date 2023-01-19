@@ -1,5 +1,4 @@
 #include <stddef.h>
-#include "function_header.h"
 
 /**
  * int_index -Search int in array using func ptr
