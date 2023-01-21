@@ -4,12 +4,13 @@
 /**
  * sum_them_all -sums all args
  * @n: number of args
+ * @...: variable number of paramters
  * Return: sum of args
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int unsigned sum = 0, i;
+	unsigned int sum = 0, i;
 	va_list args;
 
 	if (n == 0)
