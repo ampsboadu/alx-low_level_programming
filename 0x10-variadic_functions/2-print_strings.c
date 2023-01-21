@@ -1,6 +1,6 @@
+#include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
-
 /**
  * print_strings -print string args separated by sep
  * @separator: separator
