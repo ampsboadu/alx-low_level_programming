@@ -10,6 +10,12 @@ void print_binary(unsigned long int n)
 {
 	unsigned long int copy = n;
 	int len = 0;
+	
+	if (copy == 0)
+	{
+		_putchar('0');
+		return;
+	}
 
 	while (copy > 0)
 	{
