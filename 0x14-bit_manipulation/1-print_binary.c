@@ -8,7 +8,7 @@
 
 void print_binary(unsigned long int n)
 {
-	unsigned long int copy = n, mask = 1;
+	unsigned long int copy = n;
 	int len = 0;
 
 	while (copy > 0)
